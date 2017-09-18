@@ -93,7 +93,7 @@ int main() {
                                    << numeric_limits<unsigned long long>::max()
                                    <<")\n";
 
-    cout << "float  "<< sizeof(float)
+    cout << "\nfloat  "<< sizeof(float)
                      << "("
                      << numeric_limits<float>::min()
                      <<","
@@ -111,6 +111,10 @@ int main() {
                            <<","
                            << numeric_limits<long double>::max()
                            <<")\n";
+                           
+    cout <<"\nvoid  " <<endl;
+
+    cout <<"nullptr_t  " <<endl;
 
 
 
@@ -136,7 +140,11 @@ long  8(-9223372036854775808,9223372036854775807)
 unsigned long  8(0,18446744073709551615)
 long long  8(-9223372036854775808,9223372036854775807)
 unsigned long long  8(0,18446744073709551615)
+
 float  4(1.17549e-38,3.40282e+38)
 double  8(2.22507e-308,1.79769e+308)
 long double  16(3.3621e-4932,1.18973e+4932)
+
+void  
+nullptr_t
 ```
